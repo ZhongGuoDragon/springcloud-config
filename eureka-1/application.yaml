@@ -3,6 +3,18 @@ eureka:
     service-url:
       defaltZone: http://${other.eureka.host}:${other.eureka.port}/eureka
 
+spring:
+  application:
+    name: eureka-3
+server:
+  port: 8764
+eureka:
+  instance:
+    hostname: localhost
+other:
+  eureka:
+    host: 127.0.0.1
+    port: 8761
 
 ---
 spring:
