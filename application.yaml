@@ -11,7 +11,7 @@ server:
 other:
   eureka:
     host: 127.0.0.1
-    port: 8762
+    port: 8761
 
 ---
 spring:
