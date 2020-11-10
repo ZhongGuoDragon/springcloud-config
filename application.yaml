@@ -12,6 +12,8 @@ other:
   eureka:
     host: 127.0.0.1
     port: 8181
+tom:
+  word: "abc"
 
 #---
 #spring:
