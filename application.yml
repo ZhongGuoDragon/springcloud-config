@@ -14,7 +14,11 @@ other:
     port: 8762
 tom:
   word: "abc"
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
 #---
 #spring:
 #  profiles: eureka-1
