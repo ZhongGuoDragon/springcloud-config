@@ -18,7 +18,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info
+        include: refresh,health,info,hystrix.stream
 #---
 #spring:
 #  profiles: eureka-1
