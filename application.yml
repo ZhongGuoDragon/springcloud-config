@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaltZone: http://${other.eureka.host}:${other.eureka.port}/eureka
+      defaltZone: http://localhost:8888
 
 #spring:
 #  application:
